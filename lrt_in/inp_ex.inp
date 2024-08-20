@@ -1,0 +1,16 @@
+data_files_path C:/libradtran/libRadtran-2.0.3/data/
+atmosphere_file C:/libradtran/libRadtran-2.0.3/data/atmmod/afglms.dat
+source solar C:/libradtran/libRadtran-2.0.3/data/solar_flux/kurudz_1.0nm.dat
+
+rte_solver disort
+mol_abs_param lowtran
+deltam on
+number_of_streams 6
+
+wavelength 290 900
+
+day_of_year 173
+sza 30
+
+umu -1 1
+phi 0 90 180 270 

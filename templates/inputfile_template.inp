@@ -1,0 +1,29 @@
+## Main files
+# Location of files
+data_files_path C:/libradtran/libRadtran-2.0.3/data/
+# Location of atmospheric profile data
+atmosphere_file C:/libradtran/libRadtran-2.0.3/data/atmmod/afglms.dat
+# Location of the extraterrestrial spectrum
+source solar C:/libradtran/libRadtran-2.0.3/data/solar_flux/kurudz_1.0nm.dat
+
+## Solver of the radiative transfer equation
+rte_solver disort
+mol_abs_param lowtran
+deltam on
+number_of_streams 6
+
+## Wavelength range (nm)
+wavelength 290 900
+# wavelength 310.0 310.0 <- monochromatic radiation
+
+day_of_year 287 # Correct Earth-Sun distance
+altitude 0.012
+
+albedo_library IGBP
+brdf_rpv_type 5
+
+mol_modify O3 288 DU # Set ozone column
+mol_modify H2O 10 MM
+
+sza 69.4662 # Solar zenith angle
+sur_temperature 273 
