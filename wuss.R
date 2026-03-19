@@ -12,9 +12,9 @@ wuss <- function(inp = "in.inp", outp = "out.txt", script_name = "script.cmd", e
   cat("\n")
   cat("bash.exe")
   cat("\n")
-  cat("C:/Users/Localadmin_durandma/Documents/libradtran/libRadtran-2.0.5/bin/uvspec < C:/Users/Localadmin_durandma/Dropbox/Work/R/libRadtran/lrt_in/")
+  cat("C:/Users/duran/Dropbox/CNRS/Models/libRadtran/libRadtran-2.0.6/bin/uvspec < C:/Users/duran/Dropbox/CNRS/R/active/repos/2026-libRadtranWork/lrt_in/")
   cat(paste(inp))
-  cat(" > C:/Users/Localadmin_durandma/Dropbox/Work/R/libRadtran/lrt_out/")
+  cat(" > C:/Users/duran/Dropbox/CNRS/R/active/repos/2026-libRadtranWork/lrt_out/")
   cat(paste(outp))
   sink()
   
